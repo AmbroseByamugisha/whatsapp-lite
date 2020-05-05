@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: slateblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#contact_link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#chat_form {
+  display: grid;
+}
+#send_btn{
+  margin-top: 2px;
 }
